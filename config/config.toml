@@ -1,5 +1,5 @@
 [server]
-port = 3002   # the port for the http server
+port = 3003   # the port for the http server
 
 [database]  # the database options
 type = "sqlite3"
