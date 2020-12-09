@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bojand/ghz-web/config"
+	config "github.com/bojand/ghz-web/config"
 )
 
 var (

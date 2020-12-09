@@ -5,17 +5,16 @@ import (
 	"github.com/bojand/ghz-web/config"
 	"github.com/bojand/ghz-web/docs"
 	"github.com/bojand/ghz-web/model"
-	"github.com/labstack/echo"
-	"github.com/labstack/echo/middleware"
-	"github.com/labstack/gommon/log"
-	"github.com/swaggo/echo-swagger"
-	"gopkg.in/go-playground/validator.v9"
-
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mssql"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"github.com/labstack/echo"
+	"github.com/labstack/echo/middleware"
+	"github.com/labstack/gommon/log"
+	echoSwagger "github.com/swaggo/echo-swagger"
+	"gopkg.in/go-playground/validator.v9"
 )
 
 // Application is the app
